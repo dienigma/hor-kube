@@ -19,3 +19,7 @@ spec:
           image: dienigma/hor_app
           ports:
             - containerPort: 3000
+        - name: server
+          image: dienigma/hor_app
+          ports:
+            - containerPort: 5000
